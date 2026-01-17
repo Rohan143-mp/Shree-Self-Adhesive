@@ -2,13 +2,6 @@
 
 A premium, responsive web application for **Shree Self Adhesive Tape**, a leading manufacturer and distributor of BOPP tapes in Ahmednagar.
 
-![Shree Self Adhesive Tape](public/icons/icon-512x512.png)
-
-## 🚀 Live Demo
-The project is hosted on GitHub Pages: [https://Rohan143-mp.github.io/Shree-Self-Adhesive/](https://Rohan143-mp.github.io/Shree-Self-Adhesive/)
-
-## ✨ Features
-
 - **Modern Responsive Design**: Built with Tailwind CSS for a premium look on all devices.
 - **PWA (Progressive Web App)**: Installable on mobile and desktop devices with offline support.
 - **Optimized Performance**: Fast loading times with Next.js 16 and static export.
