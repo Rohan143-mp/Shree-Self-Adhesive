@@ -55,7 +55,7 @@ export function Header() {
         {/* Logo */}
         <Link href="#" className="flex items-center gap-2 hover:opacity-90 transition-opacity group">
           <Image
-            src="/images/looo.png"
+            src="images/looo.png"
             alt="Shree Self Adhesive Tape"
             width={50}
             height={50}

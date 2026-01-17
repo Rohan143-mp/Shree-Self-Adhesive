@@ -71,7 +71,7 @@ export function ProductsSection() {
               <div className="h-64 md:h-80 bg-gradient-to-br from-amber-100 to-orange-50 flex items-center justify-center relative overflow-hidden">
                 {/* TODO: Replace placeholder images with actual product photos */}
                 <Image
-                  src={product.id === "bopp" ? "/images/bopp-tape.png" : "/images/jumbo-roll.png"}
+                  src={product.id === "bopp" ? "images/bopp-tape.png" : "images/jumbo-roll.png"}
                   alt={product.title}
                   width={400}
                   height={400}
@@ -110,7 +110,7 @@ export function ProductsSection() {
               <div className="h-64 md:h-auto bg-gradient-to-br from-amber-100 to-orange-50 flex items-center justify-center overflow-hidden">
                 {/* TODO: Replace placeholder images with actual product photos */}
                 <Image
-                  src={selectedProduct === "bopp" ? "/images/bopp-tape.png" : "/images/jumbo-roll.png"}
+                  src={selectedProduct === "bopp" ? "images/bopp-tape.png" : "images/jumbo-roll.png"}
                   alt={products.find((p) => p.id === selectedProduct)?.title || "Product"}
                   width={400}
                   height={400}

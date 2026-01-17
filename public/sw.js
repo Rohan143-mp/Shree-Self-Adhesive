@@ -5,11 +5,11 @@ const DYNAMIC_CACHE = 'shree-tape-dynamic-v1'
 
 // Assets to cache on install
 const STATIC_ASSETS = [
-  '/',
-  '/manifest.json',
-  '/offline.html',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
+  './',
+  'manifest.json',
+  'offline.html',
+  'icons/icon-192x192.png',
+  'icons/icon-512x512.png',
 ]
 
 // Install event - cache static assets
@@ -100,7 +100,7 @@ self.addEventListener('fetch', (event) => {
         .catch(() => {
           // If offline and it's a navigation request, return offline page
           if (request.mode === 'navigate') {
-            return caches.match('/offline.html') || caches.match('/')
+            return caches.match('offline.html') || caches.match('./')
           }
         })
     })

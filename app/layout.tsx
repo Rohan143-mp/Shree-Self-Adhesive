@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     description: "Leading manufacturer of self-adhesive BOPP tape for industrial applications",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Shree Self Adhesive Tape",
@@ -62,18 +62,18 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Shree Self Adhesive Tape",
     description: "Premium self-adhesive tape manufacturer",
-    images: ["/twitter-image.jpg"],
+    images: ["twitter-image.jpg"],
   },
   icons: {
     icon: [
-      { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icons/icon-512x512.png", sizes: "512x512", type: "image/png" },
+      { url: "icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "icons/icon-512x512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
     ],
   },
-  manifest: "/manifest.json",
+  manifest: "manifest.json",
   generator: 'v0.app',
   appleWebApp: {
     capable: true,
@@ -102,7 +102,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="canonical" href="https://shreeselfadhesivetape.com" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="manifest.json" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
@@ -114,8 +114,8 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="application-name" content="Shree Tape" />
         <meta name="msapplication-TileColor" content="#800020" />
-        <meta name="msapplication-config" content="/browserconfig.xml" />
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <meta name="msapplication-config" content="browserconfig.xml" />
+        <link rel="apple-touch-icon" href="icons/icon-192x192.png" />
       </head>
       <body className={`${poppins.variable} ${playfairDisplay.variable} font-body antialiased`} suppressHydrationWarning>
         {children}

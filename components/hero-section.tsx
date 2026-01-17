@@ -16,7 +16,7 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero.png"
+          src="images/hero.png"
           alt="Shree Self Adhesive BOPP Tape Rolls"
           fill
           priority

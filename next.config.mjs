@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/shreetape',
-  assetPrefix: '/shreetape/',
+  basePath: '/Shree-Self-Adhesive',
+  assetPrefix: '/Shree-Self-Adhesive/',
   typescript: {
     ignoreBuildErrors: true,
   },
